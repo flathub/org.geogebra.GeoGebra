@@ -11,7 +11,7 @@
         "--socket=x11",
         "--socket=wayland",
         "--filesystem=home",
-        "--extra-data=GeoGebra-Linux-Portable-5-0-382-0.tar.bz2:db5b5610b71963900d36d4080b73cd2b10fe66469e02457c46b88caa75b01477:140084808::https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-382-0.tar.bz2"
+        "--extra-data=GeoGebra-Linux-Portable-5-0-392-0.tar.bz2:cc920bcea200150f0e47a54a7651b76cfe78408b6ab2b919dfad64d69dd41e7c:140356326::https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-392-0.tar.bz2"
     ],
     "modules": [
         {
@@ -34,21 +34,21 @@
                     "type": "script",
                     "dest-filename": "apply_extra",
                     "commands": [
-                        "tar -jxvf GeoGebra-Linux-Portable-5-0-382-0.tar.bz2",
-                        "rm -f GeoGebra-Linux-Portable-5-0-382-0.tar.bz2",
+                        "tar -jxvf GeoGebra-Linux-Portable-5-0-392-0.tar.bz2",
+                        "rm -f GeoGebra-Linux-Portable-5-0-392-0.tar.bz2",
                         "/app/bin/cleanup-other-arches.sh"
                     ]
                 },
                 {
                     "type": "script",
-                    "commands": ["exec /app/extra/GeoGebra-Linux-Portable-5-0-382-0/geogebra-portable \"$@\""],
+                    "commands": ["exec /app/extra/GeoGebra-Linux-Portable-5-0-392-0/geogebra-portable \"$@\""],
                     "dest-filename": "geogebra.sh"
                 },
                 {
                     "type": "script",
                     "dest-filename": "cleanup-other-arches.sh",
                     "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-382-0/jre1.8.0_121-i686/"
+                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-392-0/jre1.8.0_121-i686/"
                     ],
                     "only-arches": ["x86_64"]
                 },
@@ -56,7 +56,7 @@
                     "type": "script",
                     "dest-filename": "cleanup-other-arches.sh",
                     "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-382-0/jre1.8.0_121-x86_64/"
+                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-392-0/jre1.8.0_121-x86_64/"
                     ],
                     "only-arches": ["i386"]
                 }
