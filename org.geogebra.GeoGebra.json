@@ -9,9 +9,7 @@
         "--share=network",
         "--device=dri",
         "--socket=x11",
-        "--socket=wayland",
-        "--filesystem=home",
-        "--extra-data=GeoGebra-Linux-Portable-5-0-408-0.tar.bz2:d84fe7e65c1c754050b508334d29d2550e28c499a9184d083f363765a0e9383a:135085052::https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-408-0.tar.bz2"
+        "--filesystem=home"
     ],
     "modules": [
         {
@@ -24,7 +22,15 @@
                 },
                 {
                     "type": "file",
-                    "path": "geogebra.png"
+                    "path": "geogebra-64.png"
+                },
+                {
+                    "type": "file",
+                    "path": "geogebra-128.png"
+                },
+                {
+                    "type": "file",
+                    "path": "geogebra-256.png"
                 },
                 {
                     "type": "file",
@@ -59,15 +65,25 @@
                         "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-408-0/jre1.8.0_121-x86_64/"
                     ],
                     "only-arches": ["i386"]
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "GeoGebra-Linux-Portable-5-0-408-0.tar.bz2",
+                    "only-arches": ["x86_64", "i386"],
+                    "url": "https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-422-0.tar.bz2",
+                    "sha256": "6d1608aeb917f5bb38ad3e2e7901300bb636ae61e067cf5195534882e651779a",
+                    "size": 136440176 
                 }
             ],
             "build-commands": [
                 "mkdir -p /app/bin",
-                "install -Dm755 apply_extra /app/bin",
-                "install -Dm755 cleanup-other-arches.sh /app/bin",
+                "install -Dm755 apply_extra /app/bin/apply_extra",
+                "install -Dm755 cleanup-other-arches.sh /app/bin/cleanup-other-arches.sh",
                 "install -Dm755 geogebra.sh /app/bin/geogebra",
                 "install -Dm644 geogebra.desktop /app/share/applications/org.geogebra.GeoGebra.desktop",
-                "install -Dm644 geogebra.png /app/share/icons/hicolor/256x256/apps/org.geogebra.GeoGebra.png",
+                "install -Dm644 geogebra-64.png /app/share/icons/hicolor/64x64/apps/org.geogebra.GeoGebra.png",
+                "install -Dm644 geogebra-128.png /app/share/icons/hicolor/128x128/apps/org.geogebra.GeoGebra.png",
+                "install -Dm644 geogebra-256.png /app/share/icons/hicolor/256x256/apps/org.geogebra.GeoGebra.png",
                 "install -Dm644 appdata.xml /app/share/appdata/org.geogebra.GeoGebra.appdata.xml"
             ]
         }
