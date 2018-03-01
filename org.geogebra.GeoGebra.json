@@ -41,7 +41,7 @@
                     "dest-filename": "apply_extra",
                     "commands": [
                         "tar -jxvf GeoGebra-Linux-Portable-5-0-435-0.tar.bz2",
-                        "rm -f GeoGebra-Linux-Portable-5-0-432-0.tar.bz2",
+                        "rm -f GeoGebra-Linux-Portable-5-0-435-0.tar.bz2",
                         "/app/bin/cleanup-other-arches.sh"
                     ]
                 },
