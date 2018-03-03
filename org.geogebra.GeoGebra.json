@@ -72,7 +72,7 @@
                     "only-arches": ["x86_64", "i386"],
                     "url": "https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-438-0.tar.bz2",
                     "sha256": "32026254db67889b17b30f70151d7de9a7b86ba7c3e15f0150ba5b60eb0e36b9",
-                    "size": 136346301 
+                    "size": 136446514 
                 }
             ],
             "build-commands": [
