@@ -40,21 +40,21 @@
                     "type": "script",
                     "dest-filename": "apply_extra",
                     "commands": [
-                        "tar -jxvf GeoGebra-Linux-Portable-5-0-448-0.tar.bz2",
-                        "rm -f GeoGebra-Linux-Portable-5-0-448-0.tar.bz2",
+                        "tar -jxvf GeoGebra-Linux-Portable-5-0-450-0.tar.bz2",
+                        "rm -f GeoGebra-Linux-Portable-5-0-450-0.tar.bz2",
                         "/app/bin/cleanup-other-arches.sh"
                     ]
                 },
                 {
                     "type": "script",
-                    "commands": ["exec /app/extra/GeoGebra-Linux-Portable-5-0-448-0/geogebra-portable \"$@\""],
+                    "commands": ["exec /app/extra/GeoGebra-Linux-Portable-5-0-450-0/geogebra-portable \"$@\""],
                     "dest-filename": "geogebra.sh"
                 },
                 {
                     "type": "script",
                     "dest-filename": "cleanup-other-arches.sh",
                     "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-448-0/jre1.8.0_121-i686/"
+                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-450-0/jre1.8.0_121-i686/"
                     ],
                     "only-arches": ["x86_64"]
                 },
@@ -62,17 +62,17 @@
                     "type": "script",
                     "dest-filename": "cleanup-other-arches.sh",
                     "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-448-0/jre1.8.0_121-x86_64/"
+                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-450-0/jre1.8.0_121-x86_64/"
                     ],
                     "only-arches": ["i386"]
                 },
                 {
                     "type": "extra-data",
-                    "filename": "GeoGebra-Linux-Portable-5-0-448-0.tar.bz2",
+                    "filename": "GeoGebra-Linux-Portable-5-0-450-0.tar.bz2",
                     "only-arches": ["x86_64", "i386"],
-                    "url": "https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-448-0.tar.bz2",
-                    "sha256": "3aa5ed3aa4aad44f26493989a3aa529776b2e196d88a3e1544b046e11f01c38f",
-                    "size": 136470191 
+                    "url": "https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-450-0.tar.bz2",
+                    "sha256": "9d918a90c1af588b58f9def53c2a7a892b86ce027594a3787c2c8ffe933926b8",
+                    "size": 136463112 
                 }
             ],
             "build-commands": [
