@@ -62,7 +62,7 @@
                     "type": "script",
                     "dest-filename": "cleanup-other-arches.sh",
                     "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-1-451-0/jre1.8.0_121-x86_64/"
+                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-451-0/jre1.8.0_121-x86_64/"
                     ],
                     "only-arches": ["i386"]
                 },
