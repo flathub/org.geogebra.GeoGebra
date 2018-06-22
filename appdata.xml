@@ -9,18 +9,16 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://www.geogebra.org</url>
-  <description>
-  <p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p>
-  </description>
-  <description xml:lang="pt_BR"><p>Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções, analisar dados, explorar matemática 3D!</p>
-  <description xml:lang="es"><p>Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas, crean edificios, analizar datos, explorar matemáticas 3D!</p>
+  <description><p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p></description>
+  <description xml:lang="pt_BR"><p>Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções, analisar dados, explorar matemática 3D!</p></description>
+  <description xml:lang="es"><p>Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas, crean edificios, analizar datos, explorar matemáticas 3D!</p></description>
   <screenshots>
     <screenshot>
       <image type="source">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/screenshot.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2018-06-06" version="5.0.472.0"/>
+    <release date="2018-06-22" version="5.0.474.0"/>
   </releases>
   <kudos>
     <kudo>HiDpiIcon</kudo>
