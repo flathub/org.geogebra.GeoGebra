@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" version="1">
+  <g stroke-linecap="square" stroke-miterlimit="10" transform="translate(-.4551044 .6704056) scale(.85543)">
+    <path fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.653045 21.715398c2.5528723 5.337746 9.999931 7.092936 16.633471 3.920328 6.63354-3.172609 9.941575-10.071615 7.388703-15.409361-2.552872-5.3377465-9.999931-7.0929369-16.633471-3.9203279C5.4082076 9.4786461 2.1001727 16.377652 4.653045 21.715398z"/>
+    <path fill="#99f" d="M19 5c0 1.6568542-1.343146 3-3 3s-3-1.3431458-3-3 1.343146-3 3-3 3 1.3431458 3 3z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M19 5c0 1.6568542-1.343146 3-3 3s-3-1.3431458-3-3 1.343146-3 3-3 3 1.3431458 3 3z"/>
+    <path fill="#99f" d="M8 13c0 1.656854-1.3431458 3-3 3s-3-1.343146-3-3 1.3431458-3 3-3 3 1.343146 3 3z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M8 13c0 1.656854-1.3431458 3-3 3s-3-1.343146-3-3 1.3431458-3 3-3 3 1.343146 3 3z"/>
+    <path fill="#99f" d="M12 26c0 1.656854-1.343146 3-3 3-1.6568542 0-3-1.343146-3-3s1.3431458-3 3-3c1.656854 0 3 1.343146 3 3z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M12 26c0 1.656854-1.343146 3-3 3-1.6568542 0-3-1.343146-3-3s1.3431458-3 3-3c1.656854 0 3 1.343146 3 3z"/>
+    <path fill="#99f" d="M27 24c0 1.656854-1.343146 3-3 3s-3-1.343146-3-3 1.343146-3 3-3 3 1.343146 3 3z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M27 24c0 1.656854-1.343146 3-3 3s-3-1.343146-3-3 1.343146-3 3-3 3 1.343146 3 3z"/>
+    <path fill="#99f" d="M32 11c0 1.656854-1.343146 3-3 3s-3-1.343146-3-3c0-1.6568542 1.343146-3 3-3s3 1.3431458 3 3z"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M32 11c0 1.656854-1.343146 3-3 3s-3-1.343146-3-3c0-1.6568542 1.343146-3 3-3s3 1.3431458 3 3z"/>
+  </g>
+</svg>
