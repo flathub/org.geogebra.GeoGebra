@@ -22,18 +22,6 @@
                 },
                 {
                     "type": "file",
-                    "path": "geogebra-64.png"
-                },
-                {
-                    "type": "file",
-                    "path": "geogebra-128.png"
-                },
-                {
-                    "type": "file",
-                    "path": "geogebra-256.png"
-                },
-                {
-                    "type": "file",
                     "path": "geogebra-scalable.svg"
                 },
                 {
@@ -85,9 +73,6 @@
                 "install -Dm755 cleanup-other-arches.sh /app/bin/cleanup-other-arches.sh",
                 "install -Dm755 geogebra.sh /app/bin/geogebra",
                 "install -Dm644 geogebra.desktop /app/share/applications/org.geogebra.GeoGebra.desktop",
-                "install -Dm644 geogebra-64.png /app/share/icons/hicolor/64x64/apps/org.geogebra.GeoGebra.png",
-                "install -Dm644 geogebra-128.png /app/share/icons/hicolor/128x128/apps/org.geogebra.GeoGebra.png",
-                "install -Dm644 geogebra-256.png /app/share/icons/hicolor/256x256/apps/org.geogebra.GeoGebra.png",
                 "install -Dm644 geogebra-scalable.svg /app/share/icons/hicolor/scalable/apps/org.geogebra.GeoGebra.svg",
                 "install -Dm644 appdata.xml /app/share/appdata/org.geogebra.GeoGebra.appdata.xml"
             ]
