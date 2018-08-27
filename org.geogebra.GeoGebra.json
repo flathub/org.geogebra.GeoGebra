@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "geogebra-scalable.svg"
+                    "path": "icon.svg"
                 },
                 {
                     "type": "file",
@@ -73,7 +73,7 @@
                 "install -Dm755 cleanup-other-arches.sh /app/bin/cleanup-other-arches.sh",
                 "install -Dm755 geogebra.sh /app/bin/geogebra",
                 "install -Dm644 geogebra.desktop /app/share/applications/org.geogebra.GeoGebra.desktop",
-                "install -Dm644 geogebra-scalable.svg /app/share/icons/hicolor/scalable/apps/org.geogebra.GeoGebra.svg",
+                "install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/org.geogebra.GeoGebra.svg",
                 "install -Dm644 appdata.xml /app/share/appdata/org.geogebra.GeoGebra.appdata.xml"
             ]
         }
