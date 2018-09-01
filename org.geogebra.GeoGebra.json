@@ -1,7 +1,9 @@
 {
     "app-id": "org.geogebra.GeoGebra",
+    "base": "io.atom.electron.BaseApp",
+    "base-version": "18.08",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "18.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "geogebra",
     "finish-args": [
@@ -15,68 +17,57 @@
         {
             "name": "geogebra",
             "buildsystem": "simple",
+            "build-commands": [
+                "install -Dt /app/bin apply_extra geogebra",
+                "install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.appdata.xml",
+                "install -Dm644 -t /app/share/applications org.geogebra.GeoGebra.desktop",
+                "install -Dm644 -t /app/share/icons/hicolor/scalable/apps org.geogebra.GeoGebra.svg"
+            ],
             "sources": [
-                {
-                    "type": "file",
-                    "path": "geogebra.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "icon.svg"
-                },
-                {
-                    "type": "file",
-                    "path": "appdata.xml"
-                },
                 {
                     "type": "script",
                     "dest-filename": "apply_extra",
                     "commands": [
-                        "tar -jxvf GeoGebra-Linux-Portable-5-0-489-0.tar.bz2",
-                        "rm -f GeoGebra-Linux-Portable-5-0-489-0.tar.bz2",
-                        "/app/bin/cleanup-other-arches.sh"
+                        "unzip *.zip",
+                        "rm *.zip",
+                        "mv GeoGebra-linux-* geogebra",
+                        "chmod -R 755 geogebra"
                     ]
                 },
                 {
                     "type": "script",
-                    "commands": ["exec /app/extra/GeoGebra-Linux-Portable-5-0-489-0/geogebra-portable \"$@\""],
-                    "dest-filename": "geogebra.sh"
+                    "dest-filename": "geogebra",					
+                    "commands": ["exec /app/extra/geogebra/GeoGebra \"$@\""]
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "cleanup-other-arches.sh",
-                    "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-489-0/jre1.8.0_121-i686/"
-                    ],
-                    "only-arches": ["x86_64"]
+                    "type": "file",
+                    "path": "org.geogebra.GeoGebra.desktop"
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "cleanup-other-arches.sh",
-                    "commands": [
-                        "rm -rf /app/extra/GeoGebra-Linux-Portable-5-0-489-0/jre1.8.0_121-x86_64/"
-                    ],
-                    "only-arches": ["i386"]
+                    "type": "file",
+                    "path": "org.geogebra.GeoGebra.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "org.geogebra.GeoGebra.appdata.xml"
                 },
                 {
                     "type": "extra-data",
-                    "filename": "GeoGebra-Linux-Portable-5-0-489-0.tar.bz2",
-                    "only-arches": ["x86_64", "i386"],
-                    "url": "https://download.geogebra.org/installers/5.0/GeoGebra-Linux-Portable-5-0-489-0.tar.bz2",
-                    "sha256": "8ff9f54e8e685e383e468ef75fb204fbe0b9d5502f1f23f96264021db143557e",
-                    "size": 136869583
+                    "filename": "geogebra.zip",
+                    "only-arches": ["i386"],
+                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-487-0.zip",
+                    "sha256": "f31de7aba1cc677ed9f8c673c51577ab807efce13a0a84f3eacd21510b3cb08c",
+                    "size": 69319281
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "geogebra.zip",
+                    "only-arches": ["x86_64"],
+                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-487-0.zip",
+                    "sha256": "95bcc76212b2c568d426a59efd7c4fdd8131719d39cd726252393fd1beb45d56",
+                    "size": 68173161
                 }
-            ],
-            "build-commands": [
-                "mkdir -p /app/bin",
-                "install -Dm755 apply_extra /app/bin/apply_extra",
-                "install -Dm755 cleanup-other-arches.sh /app/bin/cleanup-other-arches.sh",
-                "install -Dm755 geogebra.sh /app/bin/geogebra",
-                "install -Dm644 geogebra.desktop /app/share/applications/org.geogebra.GeoGebra.desktop",
-                "install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/org.geogebra.GeoGebra.svg",
-                "install -Dm644 appdata.xml /app/share/appdata/org.geogebra.GeoGebra.appdata.xml"
             ]
         }
     ]
 }
-
