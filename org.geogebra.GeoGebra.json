@@ -54,6 +54,14 @@
                 {
                     "type": "extra-data",
                     "filename": "geogebra.zip",
+                    "only-arches": ["arm", "arm64"],
+                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-LinuxRPi3-Portable-6-0-487-0.zip",
+                    "sha256": "a9c2823cabf2e9fbc3ef6f618524d54e72a827ecd9d4dfd68c200e044f1e5226",
+                    "size": 61267217
+                },   
+                {
+                    "type": "extra-data",
+                    "filename": "geogebra.zip",
                     "only-arches": ["i386"],
                     "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-487-0.zip",
                     "sha256": "f31de7aba1cc677ed9f8c673c51577ab807efce13a0a84f3eacd21510b3cb08c",
