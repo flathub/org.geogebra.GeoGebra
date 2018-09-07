@@ -55,17 +55,17 @@
                     "type": "extra-data",
                     "filename": "geogebra.zip",
                     "only-arches": ["i386"],
-                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-487-0.zip",
-                    "sha256": "f31de7aba1cc677ed9f8c673c51577ab807efce13a0a84f3eacd21510b3cb08c",
-                    "size": 69319281
+                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-489-0.zip",
+                    "sha256": "8a299aade9f0ad6f506246497c6276c6bfbe22678bfb3f53ebf1e731bf8f54ff",
+                    "size": 69345562
                 },
                 {
                     "type": "extra-data",
                     "filename": "geogebra.zip",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-487-0.zip",
-                    "sha256": "95bcc76212b2c568d426a59efd7c4fdd8131719d39cd726252393fd1beb45d56",
-                    "size": 68173161
+                    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-489-0.zip",
+                    "sha256": "951f4ab88be140a8b2ada8d6509e05742e2bd63a221d5aa9a98ade7a0a67b38f",
+                    "size": 68199285
                 }
             ]
         }
