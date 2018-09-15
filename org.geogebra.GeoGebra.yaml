@@ -38,6 +38,13 @@ modules:
     path: org.geogebra.GeoGebra.svg
   - type: file
     path: org.geogebra.GeoGebra.appdata.xml
+    - type: extra-data
+    filename: geogebra.zip
+    only-arches:
+    - arm
+    url: https://download.geogebra.org/installers/6.0/GeoGebra-LinuxRPi3-Portable-6-0-489-0.zip
+    sha256: e4bf1d166eb14acf8b7fa4335f2b856e65efcb02ed27c0a9a244a4180f5f761d
+    size: 61289772
   - type: extra-data
     filename: geogebra.zip
     only-arches:
