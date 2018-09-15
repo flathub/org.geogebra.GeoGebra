@@ -1,3 +1,4 @@
-{
-  "skip-arches": ["aarch64", "arm"]
-}
+---
+skip-arches:
+- aarch64
+- arm
