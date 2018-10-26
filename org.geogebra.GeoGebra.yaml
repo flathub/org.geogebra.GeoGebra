@@ -44,11 +44,11 @@ modules:
     - i386
     url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-507-0.zip
     sha256: 958c29bb8c1ea0b5b1de97a96d2a20b87b50603add55ff9b97b3fc18ac6826dd
-    size: 68936167
+    size: 68828740
   - type: extra-data
     filename: geogebra.zip
     only-arches:
     - x86_64
     url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-507-0.zip
     sha256: 3fec5ff3ecd377c4b0ada90188d727899b4c2c79677f7727f63b9868ecf86390
-    size: 67046332
+    size: 66937956
