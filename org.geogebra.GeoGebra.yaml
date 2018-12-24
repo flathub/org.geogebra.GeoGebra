@@ -42,13 +42,13 @@ modules:
     filename: geogebra.zip
     only-arches:
     - i386
-    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-513-0.zip
-    sha256: c098ae7dc7d840c7f9bc718b6f5c0b3c625aa87655493f8c436f58d8cb5a8b85
-    size: 69039320
+    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-518-0.zip
+    sha256: 9202bfa1a47ddba3c1c87399acbd92b311a7670a6c0b90125a1d4ddd36c10436
+    size: 69093835
   - type: extra-data
     filename: geogebra.zip
     only-arches:
     - x86_64
-    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-513-0.zip
-    sha256: 020aafb628358887282b5220b26c85b47810e342bd93fb579f49266b1c441f3b
-    size: 67149924
+    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-518-0.zip
+    sha256: 915d0f97c4e7ccea3daecc712c9adbd77e44e450f0596085da9e14d393b27c80
+    size: 67224805
