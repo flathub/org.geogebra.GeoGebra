@@ -9,6 +9,7 @@
   <summary xml:lang="id">Perangkat lunak matematika dinamis</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
+  <translation type="gettext">GeoGebra</translation>
   <url type="homepage">https://www.geogebra.org</url>
   <url type="help">https://help.geogebra.org</url>
   <description><p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p></description>
