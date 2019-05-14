@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>org.geogebra.GeoGebra.desktop</id>
-  <name>GeoGebra</name>
   <developer_name>GeoGebra Institute</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <translation type="gettext">GeoGebra</translation>
+  <name>GeoGebra</name>
   <summary>Dynamic mathematics software</summary>
   <summary xml:lang="pt_BR">Um aplicativo de matemática dinâmica</summary>
   <summary xml:lang="es">Una aplicación de matemáticas dinámicas</summary>
   <summary xml:lang="id">Perangkat lunak matematika dinamis</summary>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
-  <translation type="gettext">GeoGebra</translation>
-  <url type="homepage">https://www.geogebra.org</url>
-  <url type="help">https://help.geogebra.org</url>
   <description><p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p></description>
   <description xml:lang="pt_BR"><p>Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções, analisar dados, explorar matemática 3D!</p></description>
   <description xml:lang="es"><p>Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas, crean edificios, analizar datos, explorar matemáticas 3D!</p></description>
@@ -27,6 +25,8 @@
   <releases>
     <release date="2019-05-10" version="6.0.536.0"/>
   </releases>
+  <url type="homepage">https://www.geogebra.org</url>
+  <url type="help">https://help.geogebra.org</url>
   <kudos>
     <kudo>HiDpiIcon</kudo>
   </kudos>
