@@ -1,7 +1,7 @@
 ---
 app-id: org.geogebra.GeoGebra
 base: io.atom.electron.BaseApp
-base-version: '18.08'
+base-version: '19.08'
 runtime: org.freedesktop.Platform
 runtime-version: '18.08'
 sdk: org.freedesktop.Sdk
