@@ -41,8 +41,6 @@ modules:
     path: org.geogebra.GeoGebra.appdata.xml
   - type: extra-data
     filename: geogebra.zip
-  - type: extra-data
-    filename: geogebra.zip
     only-arches:
     - x86_64
     url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-559-0.zip
