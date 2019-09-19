@@ -41,11 +41,6 @@ modules:
     path: org.geogebra.GeoGebra.appdata.xml
   - type: extra-data
     filename: geogebra.zip
-    only-arches:
-    - i386
-    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux32-Portable-6-0-559-0.zip
-    sha256: 63e8c969fe41f58906f4d858d5fc155401d110fbb8937cb1b8bdb2048d81f3df
-    size: 70969038
   - type: extra-data
     filename: geogebra.zip
     only-arches:
