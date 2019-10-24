@@ -18,7 +18,7 @@ modules:
   buildsystem: simple
   build-commands:
   - install -Dt /app/bin apply_extra geogebra
-  - install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.appdata.xml
+  - install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.metainfo.xml
   - install -Dm644 -t /app/share/applications org.geogebra.GeoGebra.desktop
   - install -Dm644 -t /app/share/icons/hicolor/scalable/apps org.geogebra.GeoGebra.svg
   sources:
@@ -38,7 +38,7 @@ modules:
   - type: file
     path: org.geogebra.GeoGebra.svg
   - type: file
-    path: org.geogebra.GeoGebra.appdata.xml
+    path: org.geogebra.GeoGebra.metainfo.xml
   - type: extra-data
     filename: geogebra.zip
     only-arches:
