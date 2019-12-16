@@ -3,7 +3,7 @@ app-id: org.geogebra.GeoGebra
 base: io.atom.electron.BaseApp
 base-version: '19.08'
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '19.08beta'
 sdk: org.freedesktop.Sdk
 command: geogebra
 finish-args:
