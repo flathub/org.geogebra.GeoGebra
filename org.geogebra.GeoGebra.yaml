@@ -44,5 +44,5 @@ modules:
     only-arches:
     - x86_64
     url: https://github.com/geogebra/geogebra/archive/5.0.570.0.zip
-    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    sha256: cd07ec3f813bef6d096ba826c21899a079f81b2c12b2ec01d4c1bb4c4aa9a72e
     size: 103963714
