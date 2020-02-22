@@ -23,7 +23,7 @@
     <value key="GnomeSoftware::popular-background">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/org.geogebra.GeoGebra-thumb.png</value>
   </metadata>
   <releases>
-    <release date="2019-10-28" version="6.0.564.0"/>
+    <release date="2020-02-21" version="6.0.564.0"/>
   </releases>
   <url type="homepage">https://www.geogebra.org</url>
   <url type="help">https://help.geogebra.org</url>
