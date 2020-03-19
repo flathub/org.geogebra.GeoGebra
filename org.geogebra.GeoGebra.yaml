@@ -1,11 +1,11 @@
 ---
 app-id: org.geogebra.GeoGebra
-base: io.atom.electron.BaseApp
+base: org.electronjs.Electron2.BaseApp
 base-version: '19.08'
 runtime: org.freedesktop.Platform
 runtime-version: '19.08'
 sdk: org.freedesktop.Sdk
-command: geogebra
+command: geogebra-wrapper.sh
 finish-args:
 - "--share=ipc"
 - "--share=network"
@@ -17,7 +17,7 @@ modules:
 - name: geogebra
   buildsystem: simple
   build-commands:
-  - install -Dt /app/bin apply_extra geogebra
+  - install -Dt /app/bin apply_extra geogebra-wrapper.sh
   - install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.metainfo.xml
   - install -Dm644 -t /app/share/applications org.geogebra.GeoGebra.desktop
   - install -Dm644 -t /app/share/icons/hicolor/scalable/apps org.geogebra.GeoGebra.svg
@@ -29,10 +29,8 @@ modules:
     - rm *.zip
     - mv GeoGebra-linux-* geogebra
     - chmod -R 755 geogebra
-  - type: script
-    dest-filename: geogebra
-    commands:
-    - exec /app/extra/geogebra/GeoGebra "$@"
+  - type: file
+    path: geogebra-wrapper.sh
   - type: file
     path: org.geogebra.GeoGebra.desktop
   - type: file
