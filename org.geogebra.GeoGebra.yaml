@@ -41,6 +41,6 @@ modules:
     filename: geogebra.zip
     only-arches:
     - x86_64
-    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-588-0.zip
-    sha256: 1759ae19108ce81a8cfa9f99c826ded1c371090cc8bb287921e1db6e206998cd
-    size: 85104809
+    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-590-0.zip
+    sha256: 3a9652aea0f02fae196c171930db4befc5b57ab322ef16ca3686447b696ea341
+    size: 85110724
