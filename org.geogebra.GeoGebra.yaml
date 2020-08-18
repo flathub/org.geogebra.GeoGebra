@@ -1,4 +1,3 @@
----
 app-id: org.geogebra.GeoGebra
 base: org.electronjs.Electron2.BaseApp
 base-version: '19.08'
@@ -7,42 +6,42 @@ runtime-version: '19.08'
 sdk: org.freedesktop.Sdk
 command: geogebra-wrapper.sh
 finish-args:
-- "--share=ipc"
-- "--share=network"
-- "--device=dri"
-- "--socket=x11"
-- "--socket=wayland"
-- "--filesystem=home"
+  - --share=ipc
+  - --share=network
+  - --device=dri
+  - --socket=x11
+  - --socket=wayland
+  - --filesystem=home
 modules:
-- name: geogebra
-  buildsystem: simple
-  build-commands:
-  - install -Dt /app/bin apply_extra geogebra-wrapper.sh
-  - install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.metainfo.xml
-  - install -Dm644 -t /app/share/applications org.geogebra.GeoGebra.desktop
-  - install -Dm644 -t /app/share/icons/hicolor/scalable/apps org.geogebra.GeoGebra.svg
-  sources:
-  - type: script
-    dest-filename: apply_extra
-    commands:
-    - unzip *.zip
-    - rm *.zip
-    - mv GeoGebra-linux-* geogebra
-    - chmod -R 755 geogebra
-  - type: file
-    path: geogebra-wrapper.sh
-  - type: file
-    path: org.geogebra.GeoGebra.desktop
-  - type: file
-    path: org.geogebra.GeoGebra.svg
-  - type: file
-    path: org.geogebra.GeoGebra.metainfo.xml
-  - type: extra-data
-    filename: geogebra.zip
-    x-checker-data:
-      type: rotating-url
-      url: https://download.geogebra.org/package/linux-port6
-      pattern: https://download.geogebra.org/package/linux-port6/GeoGebra-Linux64-Portable-([\d-]+).zip
-    url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-596-0.zip
-    sha256: 2cd19b161b9af5492276e0bb646893dc7494f5634a7328c311093383aafcd283
-    size: 84990555
+  - name: geogebra
+    buildsystem: simple
+    build-commands:
+      - install -Dt /app/bin apply_extra geogebra-wrapper.sh
+      - install -Dm644 -t /app/share/metainfo org.geogebra.GeoGebra.metainfo.xml
+      - install -Dm644 -t /app/share/applications org.geogebra.GeoGebra.desktop
+      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps org.geogebra.GeoGebra.svg
+    sources:
+      - type: script
+        dest-filename: apply_extra
+        commands:
+          - unzip *.zip
+          - rm *.zip
+          - mv GeoGebra-linux-* geogebra
+          - chmod -R 755 geogebra
+      - type: file
+        path: geogebra-wrapper.sh
+      - type: file
+        path: org.geogebra.GeoGebra.desktop
+      - type: file
+        path: org.geogebra.GeoGebra.svg
+      - type: file
+        path: org.geogebra.GeoGebra.metainfo.xml
+      - type: extra-data
+        filename: geogebra.zip
+        x-checker-data:
+          type: rotating-url
+          url: https://download.geogebra.org/package/linux-port6
+          pattern: https://download.geogebra.org/package/linux-port6/GeoGebra-Linux64-Portable-([\d-]+).zip
+        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-599-0.zip
+        sha256: ae6e05b3d8a87a57bf033ba80c52bd95c9447af1e18a90cea1543c666481ae9f
+        size: 84991306
