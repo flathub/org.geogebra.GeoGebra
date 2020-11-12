@@ -19,9 +19,6 @@
       <image type="source">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/screenshot.png</image>
     </screenshot>
   </screenshots>
-  <metadata>
-    <value key="GnomeSoftware::popular-background">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/org.geogebra.GeoGebra-thumb.png</value>
-  </metadata>
   <releases>
     <release date="2020-10-12" version="6.0.609.0"/>
   </releases>
