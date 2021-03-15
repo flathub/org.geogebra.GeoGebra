@@ -20,6 +20,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6-0-631-0" date="2021-03-15"/>
     <release date="2020-12-09" version="6.0.620.0"/>
   </releases>
   <url type="homepage">https://www.geogebra.org</url>
