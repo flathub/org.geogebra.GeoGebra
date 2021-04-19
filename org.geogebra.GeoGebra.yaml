@@ -42,6 +42,6 @@ modules:
           type: rotating-url
           url: https://download.geogebra.org/package/linux-port6
           pattern: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-([\d-]+).zip
-        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-636-0.zip
-        sha256: 24a0674981242b0a4a994c311d0e9b19997b57af7db75cada8c6f32595f01aac
-        size: 97678987
+        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-637-0.zip
+        sha256: 7a792918836057631f6b2e9c28dd70d431c6d05210247c26b4ece3544d44ee23
+        size: 97679319
