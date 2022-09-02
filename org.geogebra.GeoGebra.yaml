@@ -2,7 +2,7 @@ app-id: org.geogebra.GeoGebra
 base: org.electronjs.Electron2.BaseApp
 base-version: '21.08'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: geogebra-wrapper.sh
 finish-args:
