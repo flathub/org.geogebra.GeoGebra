@@ -1,8 +1,8 @@
 app-id: org.geogebra.GeoGebra
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '22.08'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: geogebra-wrapper.sh
 finish-args:
@@ -42,6 +42,6 @@ modules:
           type: rotating-url
           url: https://download.geogebra.org/package/linux-port6
           pattern: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-([\d-]+).zip
-        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-697-0.zip
-        sha256: a9e83d21978d1def7acc2d25eef1511fb549bfa453b53b37288da958c0f26198
-        size: 114239301
+        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-744-0.zip
+        sha256: d084a86d58df2f89f9e029b78db37dde1bc6d17e6c97e31bcd89d2999440027f
+        size: 114404559
