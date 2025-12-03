@@ -11,14 +11,10 @@
   <summary xml:lang="pt_BR">Um aplicativo de matemática dinâmica</summary>
   <summary xml:lang="es">Una aplicación de matemáticas dinámicas</summary>
   <summary xml:lang="id">Perangkat lunak matematika dinamis</summary>
-  <description><p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p></description>
   <description>
+	  <p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data, explore 3D math!</p>
 	  <p xml:lang="pt_BR" >Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções, analisar dados, explorar matemática 3D!</p>
-  </description>
-  <description>
 	  <p xml:lang="es" >Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas, crean edificios, analizar datos, explorar matemáticas 3D!</p>
-  </description>
-  <description>
 	  <p xml:lang="id" >Temukan Matematika dengan GeoGebra. Selesaikan persamaan, fungsi grafik, buat konstruksi, analisis data, jelajahi matematika 3D!</p>
   </description>
   <screenshots>
