@@ -38,10 +38,6 @@ modules:
         path: org.geogebra.GeoGebra.metainfo.xml
       - type: extra-data
         filename: geogebra.zip
-        x-checker-data:
-          type: rotating-url
-          url: https://download.geogebra.org/package/linux-port6
-          pattern: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-([\d-]+).zip
-        url: https://geogebra.github.io/docs/reference/en/GeoGebra_Installation/?p=linux-port6
-        sha256: 95f848969ba94e92c20d6e7db1f31bee06a65c1ac1323b012fb1cb6f9156e33f
-        size: 32276
+        url: https://download.geogebra.org/installers/6.0/GeoGebra-Linux64-Portable-6-0-804-0.zip
+        sha256: 114e537fad9322e1ae8ebdf8aa734e473b3c66a9f1d98c5a1ec5fa55d6ea9bd7
+        size: 111009113
