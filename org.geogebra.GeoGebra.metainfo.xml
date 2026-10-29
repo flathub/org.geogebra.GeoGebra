@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.geogebra.GeoGebra</id>
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
-  <name>GeoGebra</name>
-  <summary>Dynamic mathematics software</summary>
-  <summary xml:lang="pt_BR">Um aplicativo de matemática dinâmica</summary>
-  <summary xml:lang="es">Una aplicación de matemáticas dinámicas</summary>
-  <summary xml:lang="id">Perangkat lunak matematika dinamis</summary>
-  <provides><id>org.geogebra.GeoGebra.desktop</id></provides>
-  <replaces><id>org.geogebra.GeoGebra.desktop</id></replaces>
-  <launchable type="desktop-id">org.geogebra.GeoGebra.desktop</launchable>
-  <developer id="org.geogebra"><name>GeoGebra Institute</name></developer>
-  <translation type="gettext">GeoGebra</translation>
-  <url type="homepage">https://www.geogebra.org</url>
-  <url type="help">https://help.geogebra.org</url>
-  <content_rating type="oars-1.1"/>
-  <update_contact>manuel.por.aca_at_gmail.com</update_contact>
-  <description>
-    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by GeoGebra Institute.**</p>
-    <p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data,
+    <id>org.geogebra.GeoGebra</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>LicenseRef-proprietary</project_license>
+    <name>GeoGebra</name>
+    <summary>Dynamic mathematics software</summary>
+    <summary xml:lang="pt_BR">Um aplicativo de matemática dinâmica</summary>
+    <summary xml:lang="es">Una aplicación de matemáticas dinámicas</summary>
+    <summary xml:lang="id">Perangkat lunak matematika dinamis</summary>
+    <provides>
+        <id>org.geogebra.GeoGebra.desktop</id>
+    </provides>
+    <replaces>
+        <id>org.geogebra.GeoGebra.desktop</id>
+    </replaces>
+    <launchable type="desktop-id">org.geogebra.GeoGebra.desktop</launchable>
+    <developer id="org.geogebra">
+        <name>GeoGebra Institute</name>
+    </developer>
+    <translation type="gettext">GeoGebra</translation>
+    <url type="homepage">https://www.geogebra.org</url>
+    <url type="help">https://help.geogebra.org</url>
+    <content_rating type="oars-1.1" />
+    <update_contact>manuel.por.aca_at_gmail.com</update_contact>
+    <description>
+        <p>Discover Math with GeoGebra. Solve equations, graph functions, create constructions, analyze data,
       explore 3D math!</p>
-    <p xml:lang="pt_BR">Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções,
+        <p xml:lang="pt_BR">Descubra a matemática com o GeoGebra. Resolver equações, funções gráficas, criar construções,
       analisar dados, explorar matemática 3D!</p>
-    <p xml:lang="es">Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas,
+        <p xml:lang="es">Descubre las matemáticas con GeoGebra. la resolución de ecuaciones, funciones gráficas,
       crean edificios, analizar datos, explorar matemáticas 3D!</p>
-    <p xml:lang="id">Temukan Matematika dengan GeoGebra. Selesaikan persamaan, fungsi grafik, buat konstruksi,
+        <p xml:lang="id">Temukan Matematika dengan GeoGebra. Selesaikan persamaan, fungsi grafik, buat konstruksi,
       analisis data, jelajahi matematika 3D!</p>
-  </description>
-  <screenshots>
-    <screenshot type="default">
-      <image type="source">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/screenshot.png</image>
-    </screenshot>
-  </screenshots>
-  <releases>
-    <release version="6-0-804-0" date="2023-10-04"/>
-    <release version="6-0-803-0" date="2023-09-26"/>
-    <release version="6-0-802-0" date="2023-09-18"/>
-    <release version="6-0-801-0" date="2023-09-11"/>
-    <release version="6-0-794-0" date="2023-08-07"/>
-    <release version="6-0-793-0" date="2023-07-31"/>
-    <release version="6-0-791-0" date="2023-07-17"/>
-    <release version="6-0-790-0" date="2023-07-07"/>
-    <release version="6-0-788-0" date="2023-06-30"/>
-    <release version="6-0-785-0" date="2023-06-26"/>
-    <release version="6-0-783-0" date="2023-06-19"/>
-    <release version="6-0-779-0" date="2023-05-24"/>
-    <release version="6-0-778-0" date="2023-05-15"/>
-    <release version="6-0-776-0" date="2023-05-08"/>
-    <release version="6-0-775-0" date="2023-05-02"/>
-    <release version="6-0-774-0" date="2023-04-24"/>
-    <release version="6-0-772-0" date="2023-04-11"/>
-    <release version="6-0-770-0" date="2023-04-03"/>
-    <release version="6-0-766-0" date="2023-03-20"/>
-    <release version="6-0-764-0" date="2023-03-13"/>
-    <release version="6-0-760-0" date="2023-02-13"/>
-    <release version="6-0-759-0" date="2023-02-06"/>
-    <release version="6-0-755-0" date="2023-01-23"/>
-    <release version="6-0-754-0" date="2023-01-16"/>
-    <release version="6-0-753-0" date="2023-01-09"/>
-  </releases>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image type="source">https://raw.githubusercontent.com/flathub/org.geogebra.GeoGebra/master/screenshot.png</image>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="6-0-804-0" date="2023-10-04" />
+        <release version="6-0-803-0" date="2023-09-26" />
+        <release version="6-0-802-0" date="2023-09-18" />
+        <release version="6-0-801-0" date="2023-09-11" />
+        <release version="6-0-794-0" date="2023-08-07" />
+        <release version="6-0-793-0" date="2023-07-31" />
+        <release version="6-0-791-0" date="2023-07-17" />
+        <release version="6-0-790-0" date="2023-07-07" />
+        <release version="6-0-788-0" date="2023-06-30" />
+        <release version="6-0-785-0" date="2023-06-26" />
+        <release version="6-0-783-0" date="2023-06-19" />
+        <release version="6-0-779-0" date="2023-05-24" />
+        <release version="6-0-778-0" date="2023-05-15" />
+        <release version="6-0-776-0" date="2023-05-08" />
+        <release version="6-0-775-0" date="2023-05-02" />
+        <release version="6-0-774-0" date="2023-04-24" />
+        <release version="6-0-772-0" date="2023-04-11" />
+        <release version="6-0-770-0" date="2023-04-03" />
+        <release version="6-0-766-0" date="2023-03-20" />
+        <release version="6-0-764-0" date="2023-03-13" />
+        <release version="6-0-760-0" date="2023-02-13" />
+        <release version="6-0-759-0" date="2023-02-06" />
+        <release version="6-0-755-0" date="2023-01-23" />
+        <release version="6-0-754-0" date="2023-01-16" />
+        <release version="6-0-753-0" date="2023-01-09" />
+    </releases>
 </component>
