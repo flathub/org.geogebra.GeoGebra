@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>org.geogebra.GeoGebra</id>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>LicenseRef-proprietary</project_license>
+    <project_license>LicenseRef-proprietary=https://www.geogebra.org/license</project_license>
     <name>GeoGebra</name>
     <summary>Dynamic mathematics software</summary>
     <summary xml:lang="pt_BR">Um aplicativo de matemática dinâmica</summary>
